@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116280380-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116280380-1');
+</script>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="./css/mdb.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-weight: 400;
+        }
+
+        html,
+        body,
+        header,
+        .intro-2 {
+          height: 100%;
+        }
+
+        @media (max-width: 740px) {
+          html,
+          body,
+          header,
+          .intro-2 {
+            height: 900px;
+          }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            html,
+            body,
+            header,
+            .intro-2 {
+              height: 900px;
+            }
+        }
+    </style>
+	<title>
+	  Drop-a-JSON
+	</title>
+
+	<script>
+
+	var page_data = {
+		"page_title": "Drop-a-JSON",
+		"page_info": "Generate UI/UX from your JSON on the fly.",
+		
+		"product_title": "All you need for GDPR is here!",
+		"product_info_1": "Our product adds to your existing products to make them <b>GDPR Ready</b>.<br>Buy it once and use all comming versions for free.",
+		"product_info_2": "<b>Separation of Concerns</b> is our goal. As long as logging users activity and profile is not business specific until a specific point, all concerns related to your users GDPR related activity should be isolated and handled by a stand alone product and all your focus should go to business specific interactions.",
+		"product_info_3": "Keep your users and welcome them with a new <b>users login system</b>.",
+		
+		"features_title": "OTB Business Clud", 
+		"features_info": "Join OTB Business Clud to connect with business around the world.",
+		"feature1_title": "ANY Company", 
+		"feature1_info": "Build stronger connections. Buid smarter, build faster.",
+		"feature2_title": "OTB Expert IT", 
+		"feature2_info": "Are you ready for business? Buid smarter, build faster.",
+		"feature4_title": "THEY Network", 
+		"feature4_info": "World of words. Let others find yours. Buid smarter, build faster.",
+		"feature5_title": "Euro Jobit", 
+		"feature5_info": "Work and trawel. Find vagrant talents. Is getting easier to schedule your jobs. Buid smarter, build faster.",
+				
+		"team_title": "We are just like you",
+		"team_info": "We struggle with the same difficulties as any other start-up. We learned from our mistakes. And we include our lesson learned in our products so that you can avoid them and make space for other mistakes. Businesses rarely run out of mistakes.",
+		"our_address": "Chisinau, Moldova",
+		"our_phone": "+440 7773 016 016",
+		"our_email": "we@otb.expert",
+		
+		"contact_title": "Contact us",
+		"contact_info": "Let us know if we can help. We know you have specific needs, allow us explore how we can meet them.",
+		"our_address": "Chisinau, Moldova",
+		"our_phone": "+440 7773 016 016",
+		"our_email": "we@otb.expert",
+		
+		"services_title": "OTB Business Clud",
+		"services_info": "Join OTB Business Clud to connect with business around the world.",
+		
+		"service1_title": "ANY Company",
+		"service1_info": "Build stronger connections. Buid smarter, build faster.",
+		"service1_link": "<a href='https://otb.expert/any.company'>ANY Company</a>",
+		
+		"service2_title": "OTB Expert IT",
+		"service2_info": "Are you ready for business? Buid smarter, build faster.",
+		"service2_link": "<a href='https://otb.expert/otb.expert'>OTB Expert IT</a>",
+		
+		"service3_title": "THEY Network",
+		"service3_info": "World of words. Let others find yours. Buid smarter, build faster.",
+		"service3_link": "<a href='https://otb.expert/they.network'>THEY Network</a>",
+		
+		"service4_title": "Euro Jobit",
+		"service4_info": "Work and trawel. Find vagrant talents. Is getting easier to schedule your jobs. Buid smarter, build faster.",
+		"service4_link": "<a href='https://otb.expert/eurojobit.com'>Euro Jobit</a>",
+		
+		"footer_address": "Chisinau, Moldova",
+		"footer_phone1": "+440 7773 016 016",
+		"footer_phone2": "+440 7773 016 016",
+		"footer_email": "we@otb.expert",
+	}
+	</script>
+<style>
+table{
+	border: 1px solid gray;
+	vertical-align: top;
+	background-color: #ffd;
+}
+td{
+	border: 1px solid #ffedff;
+	vertical-align: top;
+}
+input{
+	width: 300px
+}
+textarea{
+	width: 300px
+}
+</style>
+
+</head>
+
+<body class="creative-lp">
+
+    <!-- Navigation & Intro -->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar grey">
+            <div class="container">
+                <a class="navbar-brand font-weight-bold title" href="#">Brand</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#home">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#about" data-offset="90">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#features" data-offset="90">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#services" data-offset="90">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#team" data-offset="90">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link title" href="#contact" data-offset="90">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-facebook title"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-twitter title"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fa fa-instagram title"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Intro Section-->
+        <section class="view intro-2" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/62.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="mask">
+                <div class="container h-100 d-flex justify-content-center align-items-center">
+                    <div class="row flex-center pt-5 mt-3">
+                        <div class="col-md-12 col-lg-6 text-center text-md-left margins">
+                            <div class="dark-grey-text">
+                                <h1 class="display-4 title mt-md-5 mt-lg-0 font-weight-bold wow fadeIn" data-wow-delay="0.3s">
+                                    <strong id="page_title">OTB Expert Product</strong>
+                                </h1>
+                                <hr class="hr-light wow fadeIn" data-wow-delay="0.3s">
+                                <h6 class="grey-text wow fadeIn" data-wow-delay="0.3s" id="page_info">We provide your business with scalable afordable IT solutions.</h6>
+								
+								<br>
+								<textarea style="width: 100%; height: 500px" id="user_input" onkeyup="DropAJSON(this.value)">{
+  "kind": "youtube#searchListResponse",
+  "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/PaiEDiVxOyCWelLPuuwa9LKz3Gk\"",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "KE",
+  "pageInfo": {
+    "totalResults": 4249,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/QpOIr3QKlV5EUlzfFcVvDiJT0hw\"",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCJowOS1R0FnhipXVqEnYU1A"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/AWutzVOt_5p1iLVifyBdfoSTf9E\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eqa2nAAhHN0"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/2dIR9BTfr7QphpBuY3hPU-h5u-4\"",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IirngItQuVs"
+      }
+    }
+  ]
+}</textarea>
+								
+								<div  style="position: fixed; right: 100px; top: 100px; z-index: 1000; overflow-y: scroll; height:800px;"><table id="resulted_ui"></table></div>
+								
+                                <br>
+                                <a class="btn btn-white btn-rounded blue-text font-weight-bold ml-lg-0 wow fadeIn" data-wow-delay="0.3s" href="./gdpr_ready/">Demo</a>
+                                <a class="btn pink-gradient white-text btn-rounded font-weight-bold wow fadeIn" data-wow-delay="0.3s">Buy now for 19.99€ <br><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                            <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <!-- Navigation & Intro -->
+
+    <!-- Main content -->
+    <main>
+
+        <div class="container">
+
+            <!-- Section: About -->
+            <section id="about" class="section about mt-5 mb-5 py-3 wow fadeIn" data-wow-delay="0.2s">
+
+                <!-- Grid row -->
+                <div class="row pt-2 mt-5">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-5 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
+                        <!-- Image -->
+                        <img src="https://mdbootstrap.com/img/Photos/Others/images/66.jpg" class="img-fluid z-depth-1 rounded" alt="My photo">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-6 ml-auto col-md-12 wow fadeIn" data-wow-delay="0.4s">
+
+                        <!-- Secion heading -->
+                        <h3 class="mb-5 dark-grey-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+                            <strong id="product_title">Are you Business Ready ?</strong>
+                        </h3>
+
+                        <!-- Description -->
+                        <p align="justify" class="grey-text" id="product_info_1"></p>
+                        <p align="justify" class="grey-text" id="product_info_2"></p>
+                        <p align="justify" class="grey-text mb-5" id="product_info_3"></p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </section>
+            <!-- Section: About -->
+
+            <hr>
+
+            <!-- Section: Features v.4 -->
+            <section id="features" class="section feature-box mb-5 pb-4">
+
+                <!-- Section heading -->
+                <h3 class="text-center title my-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+                    <strong id="features_title">Awesome features</strong>
+                </h3>
+
+                <!-- Section sescription -->
+                <p class="text-center w-responsive mx-auto my-5 grey-text wow fadeIn" data-wow-delay="0.2s" id="features_info">Each day we add value to our products. We hope today the sun will shine!</p>
+                <!-- Grid row -->
+                <div class="row features-small wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-12">
+                        <!-- Grid row -->
+                        <div class="row mb-3">
+                            <div class="col-2">
+                                <i class="fa fa-edit orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature1_title">Modern design</h5>
+                                <p class="grey-text" id="feature1_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+
+                        <!-- Grid row -->
+                        <div class="row mb-3">
+                            <div class="col-2">
+                                <i class="fa fa-cogs orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature2_title">Easy customize</h5>
+                                <p class="grey-text" id="feature2_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+
+                        <!-- Grid row -->
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-tablet orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature3_title">Responsive layouts</h5>
+                                <p class="grey-text" id="feature3_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-12 mb-1 text-center text-md-left">
+                        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="z-depth-0 img-fluid">
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Third column -->
+                    <div class="col-lg-4 col-md-12">
+                        <!-- Grid row -->
+                        <div class="row mb-3">
+                            <div class="col-2">
+                                <i class="fa fa-line-chart orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature4_title">Optymized for SEO</h5>
+                                <p class="grey-text" id="feature4_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+
+                        <!-- Grid row -->
+                        <div class="row mb-3">
+                            <div class="col-2">
+                                <i class="fa fa-group orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature5_title">Technical support</h5>
+                                <p class="grey-text" id="feature5_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+
+                        <!-- Grid row -->
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="fa fa-diamond orange-text fa-2x"></i>
+                            </div>
+                            <div class="col-10 mb-2">
+                                <h5 class="font-weight-bold title" id="feature6_title">High quality</h5>
+                                <p class="grey-text" id="feature6_info"></p>
+                            </div>
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                    <!-- Third column -->
+                </div>
+                <!-- Grid row -->
+
+            </section>
+            <!-- Section: Features v.4 -->
+
+        </div>
+        <!-- Streak -->
+
+        <div class="container-fluid" style="background-color: #f4f4fa">
+            <div class="container py-4">
+
+                <!--Section: Services-->
+                <section id="services" class="section mt-3 mb-3 pb-3">
+
+                    <!-- Section heading -->
+                    <h3 class="text-center title my-5 pt-4 pb-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+                        <strong id="services_title">Our services</strong>
+                    </h3>
+
+                    <!-- First row -->
+                    <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+                        <!-- First column -->
+                        <div class="col-md-6 mb-4 text-center">
+
+                            <!--Panel-->
+                            <div class="card card-body text-left white hoverable">
+                                <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                                    <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                    <strong id="service1_title">DEVELOPMENT</strong>
+                                </p>
+                                <p class="grey-text font-small mx-4"><span id="service1_info"></span>
+                                    <p class="font-small font-weight-bold orange-text mx-4 mb-0">
+                                        <div id="service1_link">OTB Expert IT</div>
+                                    </p>
+                                </p>
+                            </div>
+                            <!--/.Panel-->
+
+                        </div>
+                        <!-- /First column -->
+
+                        <!-- Second column -->
+                        <div class="col-md-6 mb-4 text-center">
+
+                            <!--Panel-->
+                            <div class="card card-body text-left white hoverable">
+                                <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                                    <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                    <strong id="service2_title">MARKETING</strong>
+                                </p>
+                                <p class="grey-text font-small mx-4"><span id="service2_info"></span>
+                                    <p class="font-small font-weight-bold orange-text mx-4 mb-0">
+                                        <div id="service2_link">OTB Expert e-Commerce</div>
+                                    </p>
+                                </p>
+                            </div>
+                            <!--/.Panel-->
+
+                        </div>
+                        <!-- /.Second column -->
+
+                        <!-- Third column -->
+                        <div class="col-md-6 mb-4 text-center">
+
+                            <!--Panel-->
+                            <div class="card card-body text-left white hoverable">
+                                <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                                    <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                    <strong id="service3_title">LEGAL</strong>
+                                </p>
+                                <p class="grey-text font-small mx-4"><span id="service3_info"></span>
+									<p class="font-small font-weight-bold orange-text mx-4 mb-0">
+                                        <div id="service3_link">OTB Expert Legal</div>
+                                    </p>
+                                </p>
+                            </div>
+                            <!--/.Panel-->
+
+                        </div>
+                        <!-- /.Third column -->
+
+                        <!-- Fourth column -->
+                        <div class="col-md-6 mb-4 text-center">
+
+                            <!--Panel-->
+                            <div class="card card-body text-left white hoverable">
+                                <p class="font-weight-bold title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                                    <i class="fa fa-square orange-text mr-2" aria-hidden="true"></i>
+                                    <strong id="service4_title">SEO</strong>
+                                </p>
+                                <p class="grey-text font-small mx-4"><span id="service4_info"></span>
+									<p class="font-small font-weight-bold orange-text mx-4 mb-0">
+                                        <div id="service4_link">OTB Expert SEO</div>
+                                    </p>
+                                </p>
+                            </div>
+                            <!--/.Panel-->
+
+                        </div>
+                        <!-- /.Fourth column -->
+
+                    </div>
+                    <!-- /.First row -->
+
+                </section>
+                <!--/Section: Services-->
+
+            </div>
+        </div>
+        <!--Second container-->
+
+        <div class="container">
+            <hr class="mt-5">
+
+            <!-- Section: Team v.1 -->
+            <section class="section team-section pb-5" id="team">
+
+                <!-- Section heading -->
+                <h3 class="text-center title my-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+                    <strong id="team_title">Our amazing team</strong>
+                </h3>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto my-5 grey-text" id="team_info">We keep the line, we grow stronger every day.</p>
+
+                <!-- Grid row -->
+                <div class="row text-center">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card card-body">
+                            <div class="avatar mx-auto mt-3 mb-3">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(25).jpg" class="rounded-circle" alt="First sample avatar image">
+                            </div>
+                            <h6 class="font-weight-bold title">Anna Deynah</h6>
+
+                            <p class="font-small grey-text">Graphic designer</p>
+
+                            <ul class="list-unstyled">
+                                <!-- Facebook -->
+                                <a class="p-2 m-2 fa-lg fb-ic">
+                                    <i class="fa fa-facebook orange-text"> </i>
+                                </a>
+                                <!-- Twitter -->
+                                <a class="p-2 m-2 fa-lg tw-ic">
+                                    <i class="fa fa-twitter orange-text"> </i>
+                                </a>
+                                <!-- Instagram -->
+                                <a class="p-2 m-2 fa-lg ins-ic">
+                                    <i class="fa fa-instagram orange-text"> </i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card card-body">
+                            <div class="avatar mx-auto mt-3 mb-3">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle" alt="First sample avatar image">
+                            </div>
+                            <h6 class="font-weight-bold title">John Doe</h6>
+
+                            <p class="font-small grey-text">Web developer</p>
+
+                            <ul class="list-unstyled">
+                                <!-- Facebook -->
+                                <a class="p-2 m-2 fa-lg fb-ic">
+                                    <i class="fa fa-facebook orange-text"> </i>
+                                </a>
+                                <!-- Instagram -->
+                                <a class="p-2 m-2 fa-lg ins-ic">
+                                    <i class="fa fa-instagram orange-text"> </i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card card-body">
+                            <div class="avatar mx-auto mt-3 mb-3">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg" class="rounded-circle" alt="First sample avatar image">
+                            </div>
+                            <h6 class="font-weight-bold title">Maria Smith</h6>
+
+                            <p class="font-small grey-text">Photographer</p>
+
+                            <ul class="list-unstyled">
+                                <!-- Facebook -->
+                                <a class="p-2 m-2 fa-lg fb-ic">
+                                    <i class="fa fa-facebook orange-text"> </i>
+                                </a>
+                                <!-- Instagram -->
+                                <a class="p-2 m-2 fa-lg ins-ic">
+                                    <i class="fa fa-instagram orange-text"> </i>
+                                </a>
+                                <!-- Dribbble -->
+                                <a class="p-2 m-2 fa-lg ins-ic">
+                                    <i class="fa fa-dribbble orange-text"> </i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card card-body">
+                            <div class="avatar mx-auto mt-3 mb-3">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle" alt="First sample avatar image">
+                            </div>
+                            <h6 class="font-weight-bold title">Tom Adams</h6>
+
+                            <p class="font-small grey-text">Backend developer</p>
+
+                            <ul class="list-unstyled">
+                                <!-- Facebook -->
+                                <a class="p-2 m-2 fa-lg fb-ic">
+                                    <i class="fa fa-facebook orange-text"> </i>
+                                </a>
+                                <!-- Github -->
+                                <a class="p-2 m-2 fa-lg ins-ic">
+                                    <i class="fa fa-github orange-text"> </i>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </section>
+            <!-- Section: Team v.1 -->
+
+            <hr>
+
+            <!-- Section: Contact v.2 -->
+            <section id="contact" class="section mb-5">
+
+                <!-- Section heading -->
+                <h3 class="text-center title my-5 py-4 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+                    <strong id="contact_title">Contact us</strong>
+                </h3>
+
+                <!-- Section sescription -->
+                <p class="text-center grey-text my-5 w-responsive mx-auto wow fadeIn" data-wow-delay="0.2s" id="contact_info">Just drop a line! You can save our business.</p>
+
+                <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- Grid column -->
+                    <div class="col-md-8 col-lg-9">
+                        <form>
+                            <!-- Grid row -->
+                            <div class="row">
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <div class="md-form">
+                                            <input type="text" id="form41" class="form-control">
+                                            <label for="form41" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form">
+                                        <div class="md-form">
+                                            <input type="text" id="form52" class="form-control">
+                                            <label for="form52" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Grid row -->
+
+                            <!-- Grid row -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <input type="text" id="form51" class="form-control">
+                                        <label for="form51" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Grid row -->
+
+                            <!-- Grid row -->
+                            <div class="row">
+                                <!-- Grid column -->
+                                <div class="col-md-12">
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
+                                        <label for="form76">Your message</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Grid row -->
+                        </form>
+
+                        <div class="text-center text-md-left mb-5 mt-4">
+                            <a class="btn btn-rounded btn-white font-weight-bold">Send</a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3">
+                        <ul class="text-center list-unstyled float-md-right">
+                            <li>
+                                <i class="fa fa-map-marker fa-2x title"></i>
+                                <p id="our_address">London, UK</p>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-phone fa-2x title"></i>
+                                <p id="our_phone">+ 44 07773 016 016</p>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-envelope fa-2x title"></i>
+                                <p id="our_email">we@otb.expert</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+            </section>
+            <!-- Section: Contact v.2 -->
+
+        </div>
+
+    </main>
+    <!-- Main content -->
+
+    <!--Footer-->
+    <footer class="page-footer text-center text-md-left unique-color-dark pt-0">
+
+        <div style="background-color: #f95169;">
+            <div class="container">
+
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-md-0">
+                        <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="p-2 m-2 fa-lg fb-ic ml-0">
+                            <i class="fa fa-facebook white-text mr-lg-4"> </i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="p-2 m-2 fa-lg tw-ic">
+                            <i class="fa fa-twitter white-text mr-lg-4"> </i>
+                        </a>
+                        <!--Google +-->
+                        <a class="p-2 m-2 fa-lg gplus-ic">
+                            <i class="fa fa-google-plus white-text mr-lg-4"> </i>
+                        </a>
+                        <!--Linkedin-->
+                        <a class="p-2 m-2 fa-lg li-ic">
+                            <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="p-2 m-2 fa-lg ins-ic">
+                            <i class="fa fa-instagram white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>OTB Expert</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Products</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">OTB Expert IT</a>
+                    </p>
+                    <p>
+                        <a href="#!">OTB Expert eCommerce</a>
+                    </p>
+                    <p>
+                        <a href="#!">OTB Expert Legal</a>
+                    </p>
+                    <p>
+                        <a href="#!">OTB Expert SEO</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+                </div>
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="spacing font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> <span id="footer_address">London, UK</span></p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> <span id="footer_email">info@example.com</span></p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> <span id="footer_phone1"></span></p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> <span id="footer_phone2"></span></p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!-- Copyright -->
+        <div class="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                © 2018 Copyright: <a href="https://otb.expert/" target="_blank"> OTB Expert </a>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!--/.Footer-->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../otb.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
+    <script>
+        //Animation init
+        new WOW().init();
+
+        //Modal
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+        })
+
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').material_select();
+        });
+    </script>
+
+    <script>
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+			
+			$(window).scroll(function (event) {
+					var scroll = $(window).scrollTop();
+					$('#resulted_ui').css('visibility', scroll< 600? 'visible': 'hidden');
+					// Do something
+				});
+	
+        });
+    </script>
+	<script>
+function ConsumeObject(page_data)
+{
+	$.each(page_data, function(key, value) {
+		$('#'+key).html(value);
+	});
+}
+
+$(function() {
+    ConsumeObject(page_data);
+});
+</script>
+
+</body>
+
+</html>
