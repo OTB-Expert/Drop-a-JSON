@@ -8,6 +8,7 @@ function DropAJSON(json){
 	var resulted_ui = '';//JSON.stringify(json);
 	
 	var table = $('#resulted_ui');
+	table.html("");
 
 	$.each( json, function( label, item ) {
 		if(item.length ==undefined)
