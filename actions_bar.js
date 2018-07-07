@@ -2,6 +2,7 @@
 // Example: <div class='otb_actions_bar' id='drop_55'></div>
 // ActionsBar will receive the data-id value to configure actions
 // Make syre you use jQuery
+// Usage example: https://otb.expert/Drop-a-JSON/
 
 function OtbGenerateActionBar(data)
 {
