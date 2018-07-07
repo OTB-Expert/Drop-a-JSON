@@ -5,7 +5,7 @@
 
 function OtbGenerateActionBar(data)
 {
-  var actions_bar = $('<div> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-share-alt"> </i> </a> | <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-thumbtack"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-thumbs-up"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-copy"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-edit"> </i> </a> | <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-share-alt"> </i> </a></div>');
+  var actions_bar = $('<div> <a class="fa-lg p-2 m-2 fb-ic" alt="Report bug"> <i class="fas fa-bug"> </i> </a> | <a class="fa-lg p-2 m-2 fb-ic" alt="Pin on your board"> <i class="fas fa-thumbtack"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic" alt="Like it"> <i class="fas fa-thumbs-up"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-copy" alt="Creative Commons use"> </i> </a> <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-edit" alt="Edit under Creative Commons license"> </i> </a> | <a class="fa-lg p-2 m-2 fb-ic"> <i class="fas fa-share-alt" alt="Share on Facebook"> </i> </a></div>');
   return actions_bar;
 }
 
